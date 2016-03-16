@@ -1,15 +1,16 @@
 package study.insuk.factory.main;
 
-import study.insuk.factory.framework.*;
-import study.insuk.factory.idcard.*;
+import study.insuk.factory.framework.Factory;
+import study.insuk.factory.framework.Product;
+import study.insuk.factory.idcard.IDCardFactory;
 
 public class Main {
 
 	public static void main(String[] args) {
 		Factory factory = new IDCardFactory();
-		Product card1 = factory.create("È«±æµ¿");
-		Product card2 = factory.create("ÀÌ¼ø½Å");
-		Product card3 = factory.create("°­°¨Âù");
+		Product card1 = factory.create("È«ï¿½æµ¿");
+		Product card2 = factory.create("ï¿½Ì¼ï¿½ï¿½ï¿½");
+		Product card3 = factory.create("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		
 		card1.use();
 		card2.use();

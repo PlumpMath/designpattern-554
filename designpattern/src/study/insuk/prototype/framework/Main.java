@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//ÁØºñ
+		//ï¿½Øºï¿½
 		Manager manager = new Manager();
 		UnderlinePen upen = new UnderlinePen('~');
 		MessageBox mbox = new MessageBox('*');
@@ -13,7 +13,7 @@ public class Main {
 		manager.register("warning box", mbox);
 		manager.register("slash box", sbox);
 	
-		//»ý¼º
+		//ï¿½ï¿½ï¿½ï¿½
 		Product p1 = manager.create("strong message");
 		p1.use("Hello, world");
 		Product p2 = manager.create("warning box");

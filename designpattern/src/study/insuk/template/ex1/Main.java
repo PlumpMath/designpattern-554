@@ -8,7 +8,7 @@ public class Main {
 		
 		AbstractDisplay d2 = new StringDisplay("Hello, world");
 		
-		AbstractDisplay d3 = new StringDisplay("¾È³çÇÏ¼¼¿ä.");
+		AbstractDisplay d3 = new StringDisplay("ï¿½È³ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.");
 		
 		d1.display();
 		d2.display();

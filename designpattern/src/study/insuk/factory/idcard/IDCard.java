@@ -2,16 +2,16 @@ package study.insuk.factory.idcard;
 
 import study.insuk.factory.framework.Product;
 
-public class IDCard extends Product{
+public class IDCard extends Product {
 	private String owner;
 	IDCard(String owner) {
-		System.out.println(owner + "ÀÇ Ä«µå¸¦ ¸¸µì´Ï´Ù.");
+		System.out.println(owner + "ï¿½ï¿½ Ä«ï¿½å¸¦ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 		this.owner = owner;
 	}
 	
 	@Override
 	public void use() {
-		System.out.println(owner + "ÀÇ Ä«µå¸¦ »ç¿ëÇÕ´Ï´Ù.");
+		System.out.println(owner + "ï¿½ï¿½ Ä«ï¿½å¸¦ ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 	}
 	public String getOwner(){
 		return owner;
